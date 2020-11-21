@@ -64,7 +64,7 @@ class Node:
 
 
 # =============================================================================
-# 
+# Each layer constists of a predefined number of nodes
 # =============================================================================
 class Layer:
     def __init__(self, size = 0, numberOfInputs = 0, biasNode = True):
@@ -100,7 +100,7 @@ class Layer:
 
 
 # =============================================================================
-# 
+# Network is a set amount of connected layers of nodes
 # =============================================================================
 class Network:
     def __init__(self, lengths_of_layers, num_of_inputs, data = []):
